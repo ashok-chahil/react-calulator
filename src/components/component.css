@@ -1,0 +1,47 @@
+.button-wrap{
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: lighter;
+	font-size: 20px;
+	background-color: #e0e1e6;
+	color: #888888;
+	flex: 1;
+	outline: 1px solid #888888;
+	cursor: pointer;
+}
+
+.input-section{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 12px;
+	outline: 1px solid #888888;
+}
+
+.input-sec-light-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.input-sec-dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode{
+	background-color: #f0f0f0;
+	color: #000000;
+}
+
+.dark-mode{
+	background-color: #666666;
+	color: #ffffff;
+}
